@@ -1,150 +1,238 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Miriti Jeff — Developer & Cybersecurity Enthusiast</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miriti Jeff — Developer & Cybersecurity Enthusiast</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-  <script defer src="script.js"></script>
-</head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script defer src="script.js"></script>
+  </head>
 
-<body data-theme="dark">
-  <header class="navbar">
-    <div class="container nav-container">
-      <h1 class="logo">Miriti Jeff</h1>
-      <nav class="main-nav">
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#toolbox">My Toolbox</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#accomplishments">Accomplishments</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <button id="theme-toggle">🌙</button>
-    </div>
-  </header>
-
-  <div class="mobile-actions" aria-hidden="false"> 
-  <a href="#home" class="ma-btn" title="Home">🏠</a> 
-  <a href="#toolbox" class="ma-btn" title="Toolbox">🧰</a>
-  <a href="#contact" class="ma-btn" title="Contact">✉️</a> </div>
-
-  <!-- Hero -->
-  <section id="home" class="hero">
-    <div class="container">
-      <img src="profile.jpeg" alt="Miriti Jeff" class="profile-pic" />
-      <h2>Hi, I'm <span class="highlight">Miriti Jeff</span></h2>
-      <p>I'm a <span class="typing"></span></p>
-    </div>
-  </section>
-
-  <!-- Toolbox -->
-  <section id="toolbox" class="toolbox">
-    <div class="container">
-      <h2>🧰 My Toolbox</h2>
-      <div class="tool-grid">
-        <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" /><span>HTML5</span></div>
-        <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" /><span>CSS3</span></div>
-        <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" /><span>JavaScript</span></div>
-        <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" /><span>Node.js</span></div>
-        <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express.js" /><span>Express.js</span></div>
-        <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" /><span>MySQL</span></div>
-        <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" /><span>Docker</span></div>
-        <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" /><span>GitHub</span></div>
-        <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Kali Linux" /><span>Kali Linux</span></div>
+  <body data-theme="dark">
+    <header class="navbar">
+      <div class="container nav-container">
+        <h1 class="logo">Miriti Jeff</h1>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#toolbox">My Toolbox</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#accomplishments">Accomplishments</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button id="theme-toggle">🌙</button>
       </div>
-    </div>
-  </section>
+    </header>
 
-  <!-- About -->
-  <section id="about" class="about">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>
-        I'm a junior developer passionate about full-stack web development and cybersecurity.
-        I love building systems that automate tasks and exploring ethical hacking with Kali Linux.
-      </p>
+    <div class="mobile-actions" aria-hidden="false">
+      <a href="#home" class="ma-btn" title="Home">🏠</a>
+      <a href="#toolbox" class="ma-btn" title="Toolbox">🧰</a>
+      <a href="#contact" class="ma-btn" title="Contact">✉️</a>
     </div>
-  </section>
 
-  <!-- Education -->
-  <section id="education" class="education">
-    <div class="container">
-      <h2>Education</h2>
-      <p>
-        Pursued Diploma in ICT (KNEC) with a focus on web systems, Node.js backend,
-        and cybersecurity fundamentals.
-      </p>
-    </div>
-  </section>
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <div class="container">
+        <img src="img/profile.jpeg" alt="Miriti Jeff" class="profile-pic" />
+        <h2>Hi, I'm <span class="highlight">Miriti Jeff</span></h2>
+        <p>I'm a <span class="typing"></span></p>
+      </div>
+    </section>
 
-  <!-- Projects -->
-  <section id="projects" class="projects">
-    <div class="container">
-      <h2>Projects</h2>
-      <div class="project-card">
-        <h3>💧 Water Billing System</h3>
+    <!-- Toolbox -->
+    <section id="toolbox" class="toolbox">
+      <div class="container">
+        <h2>🧰 My Toolbox</h2>
+        <div class="tool-grid">
+          <div class="tool">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+              alt="HTML5"
+            /><span>HTML5</span>
+          </div>
+          <div class="tool">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+              alt="CSS3"
+            /><span>CSS3</span>
+          </div>
+          <div class="tool">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              alt="JavaScript"
+            /><span>JavaScript</span>
+          </div>
+          <div class="tool">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+              alt="Node.js"
+            /><span>Node.js</span>
+          </div>
+          <div class="tool">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+              alt="Express.js"
+            /><span>Express.js</span>
+          </div>
+          <div class="tool">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+              alt="MySQL"
+            /><span>MySQL</span>
+          </div>
+          <div class="tool">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+              alt="Docker"
+            /><span>Docker</span>
+          </div>
+          <div class="tool">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+              alt="GitHub"
+            /><span>GitHub</span>
+          </div>
+          <div class="tool">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+              alt="Kali Linux"
+            /><span>Kali Linux</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Me</h2>
         <p>
-          A responsive web system using Node.js, Express.js, MySQL, and M-Pesa API.
-          It manages user billing, payments, and admin dashboards efficiently.
+          I'm a junior developer passionate about full-stack web development and
+          cybersecurity. I love building systems that automate tasks and
+          exploring ethical hacking with Kali Linux.
         </p>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Modal -->
-  <div class="modal" id="projectModal">
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <h3>💧 Water Billing System</h3>
-      <p>This project demonstrates a complete billing solution with Node.js, Express.js, MySQL, and M-Pesa integration. Built for managing water payments and user dashboards securely.</p>
-      <a href="#" class="btn">Visit Live Demo</a>
-    </div>
-  </div>
+    <!-- Education -->
+    <section id="education" class="education">
+      <div class="container">
+        <h2>Education</h2>
+        <p>
+          Pursued Diploma in ICT (KNEC) with a focus on web systems, Node.js
+          backend, and cybersecurity fundamentals.
+        </p>
+      </div>
+    </section>
 
-  <!-- Accomplishments -->
-  <section id="accomplishments" class="accomplishments">
-    <div class="container">
-      <h2>Accomplishments</h2>
-      <ul>
-        <li>2024 — Learned Networking & Cybersecurity with Kali Linux</li>
-        <li>2025 — Built a Water Billing System with full REST API integration</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact" class="contact">
-    <div class="container">
-      <h2>Contact</h2>
-      <p>Want to collaborate or discuss a project? Reach out below.</p>
-      <form id="contact-form">
-        <input type="text" id="name" name="from_name" placeholder="Your Name" required />
-        <input type="email" id="email" name="reply_to" placeholder="Your Email" required />
-        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
-        <button type="submit" class="btn">Send Message</button>
-      </form>
-      <p id="form-status"></p>
-    </div>
-  </section>
-
-  <!-- Resume -->
-<section id="resume" class="resume">
+  <!-- Projects -->
+<section id="projects" class="projects">
   <div class="container">
-    <h2>📄 My Resume</h2>
-    <p>You can view or download my resume below.</p>
-    <a href="Jeff Miriti.pdf" class="btn" download>Download Resume</a>
+    <h2>Projects</h2>
+    <div class="projects-grid">
+
+      <!-- Car Dealership -->
+      <div class="project-card">
+        <img src="img/sigra-preview.png" alt="Sigra Motors" class="project-img" onerror="this.src='https://via.placeholder.com/400x220?text=Sigra+Motors'">
+        <div class="project-info">
+          <h3> Sigra Motors — Car Dealership System</h3>
+          <p>Full stack car dealership platform with admin dashboard, booking system, image uploads and mobile responsive frontend.</p>
+          <div class="project-tags">
+            <span>Node.js</span>
+            <span>MySQL</span>
+            <span>Redis</span>
+            <span>Docker</span>
+          </div>
+          <div class="project-btns">
+            <a href="#" target="_blank" class="btn btn-outline">Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Water Billing -->
+      <div class="project-card">
+        <img src="img/water-preview.png" alt="Water Billing" class="project-img" onerror="this.src='https://via.placeholder.com/400x220?text=Water+Billing+System'">
+        <div class="project-info">
+          <h3>💧 Water Billing System</h3>
+          <p>Responsive billing system with Node.js, Express.js, MySQL and M-Pesa API for managing payments and admin dashboards.</p>
+          <div class="project-tags">
+            <span>Node.js</span>
+            <span>Express.js</span>
+            <span>MySQL</span>
+            <span>M-Pesa API</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
   </div>
 </section>
 
-  <footer>
-    <p>&copy; 2026 Miriti Jeff. All Rights Reserved.</p>
-  </footer>
-</body>
+    <!-- Accomplishments -->
+    <section id="accomplishments" class="accomplishments">
+      <div class="container">
+        <h2>Accomplishments</h2>
+        <ul>
+          <li>2024 — Learned Networking & Cybersecurity with Kali Linux</li>
+          <li>
+            2025 — Built a Water Billing System with full REST API integration
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Want to collaborate or discuss a project? Reach out below.</p>
+        <form id="contact-form">
+          <input
+            type="text"
+            id="name"
+            name="from_name"
+            placeholder="Your Name"
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            name="reply_to"
+            placeholder="Your Email"
+            required
+          />
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+        <p id="form-status"></p>
+      </div>
+    </section>
+
+    <!-- Resume -->
+    <section id="resume" class="resume">
+      <div class="container">
+        <h2>📄 My Resume</h2>
+        <p>You can view or download my resume below.</p>
+        <a href="Jeff Miriti.pdf" class="btn" download>Download Resume</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 Miriti Jeff. All Rights Reserved.</p>
+    </footer>
+  </body>
 </html>

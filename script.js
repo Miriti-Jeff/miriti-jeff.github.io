@@ -28,13 +28,10 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   typeEffect();
 
-  // Theme toggle
-  // Theme toggle: initialize from localStorage, guard, and persist
   try {
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme) document.body.dataset.theme = savedTheme;
   } catch (e) {
-    // localStorage may be unavailable in some privacy modes; ignore
   }
 
   const toggle = document.getElementById("theme-toggle");
@@ -67,14 +64,14 @@ document.addEventListener("DOMContentLoaded", () => {
     };
   }
 
-  // ✅ Initialize EmailJS
+  // Initialize EmailJS
   (function() {
     emailjs.init({
       publicKey: "gVSlGUkkSo0I4j0yX",
     });
   })();
 
-  // ✅ Handle Contact Form
+  // Handle Contact Form
   const contactForm = document.getElementById("contact-form");
 
   if (contactForm) {
@@ -86,12 +83,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
       emailjs.sendForm(serviceID, templateID, this)
         .then(() => {
-          alert("✅ Message sent successfully!");
+          alert("Message sent successfully!");
           contactForm.reset();
         })
         .catch((err) => {
           console.error("EmailJS Error:", err);
-          alert("❌ Failed to send. Please try again.");
+          alert("Failed to send. Please try again.");
         });
     });
   }
