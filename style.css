@@ -297,7 +297,7 @@ transition: transform 0.18s ease, background 0.18s ease;
   font-weight: 500;
 }
 
-/* Accomplishments: remove default list bullets */
+/* Accomplishments*/
 .accomplishments ul {
   list-style: none;
   padding-left: 0;
@@ -307,9 +307,7 @@ transition: transform 0.18s ease, background 0.18s ease;
   margin: 0.4rem 0;
 }
 
-/* ================================
-   MODAL
-================================ */
+/*MODAL*/
 .modal {
   display: none;
   position: fixed;
@@ -417,9 +415,7 @@ transition: transform 0.18s ease, background 0.18s ease;
   color: white;
 }
 
-/* ================================
-   RESPONSIVE
-================================ */
+/*RESPONSIVE*/
 @media (max-width: 600px) {
   .projects-grid {
     grid-template-columns: 1fr;
